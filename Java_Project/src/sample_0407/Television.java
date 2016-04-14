@@ -16,5 +16,18 @@ public class Television {
 		channel = ch;
 		return channel;
 	}
+	
+	public Television() {
+		this(10,20,false);
+		//this.channel = 10;
+		//this.volume = 10;
+		//this.onoff = true;
+	}
+	
+	public Television(int channel, int volume, boolean onoff) {
+		this.channel = channel;
+		this.volume = volume;
+		this.onoff = onoff;
+	}
 
 }
